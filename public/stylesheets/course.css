@@ -1,0 +1,1902 @@
+@import
+	url(https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700);
+
+@import url(https://fonts.googleapis.com/css?family=Lora:400italic);
+
+#page-head {
+	margin-bottom: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none
+}
+
+#page-head .inner {
+	margin-top: -5px;
+	margin-bottom: -5px
+}
+
+.course-tabs-wrap {
+	background: #fff;
+	padding: 10px 0;
+	border-bottom: 1px solid #e4e4e4
+}
+
+#content {
+	padding-bottom: 20px
+}
+
+#content .buttons {
+	width: 600px;
+	margin: 40px auto 0 auto
+}
+
+#content .buttons .separator {
+	color: gray;
+	text-align: center;
+	padding: 14px 0;
+	font-style: italic
+}
+
+#content .buttons .separator span {
+	margin: 10px 8px 0 8px;
+	display: inline-block;
+	vertical-align: top
+}
+
+#content .buttons .separator .dash {
+	width: 270px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px dashed #ccc
+}
+
+#content .buttons .btn {
+	margin: 0;
+	display: block
+}
+
+#content .fb-facepile {
+	display: block;
+	margin: 40px 0
+}
+
+#content .fb-facepile>span {
+	display: block;
+	margin: 0 auto
+}
+
+.lower-body-section {
+	position: relative;
+	display: block;
+	height: 460px
+}
+
+.lower-body-section .columns {
+	display: none;
+	position: relative;
+	z-index: 250;
+	height: 275px;
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 20px
+}
+
+.lower-body-section .columns>div {
+	height: inherit
+}
+
+.lower-body-section .columns .logo {
+	display: block;
+	width: 100%
+}
+
+.lower-body-section .columns .logo img {
+	display: block;
+	margin: 0 auto
+}
+
+.lower-body-section .columns blockquote {
+	border: none;
+	margin: 34px 8px 0 30px
+}
+
+.lower-body-section .columns blockquote p {
+	display: inline;
+	color: #eee
+}
+
+.lower-body-section .columns blockquote:before, .lower-body-section .columns blockquote:after
+	{
+	color: #ccc;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin: 0.25em;
+	color: #eee
+}
+
+.lower-body-section .columns blockquote:before {
+	margin-left: -44px;
+	vertical-align: -0.2em;
+	content: "\201C"
+}
+
+.lower-body-section .columns blockquote:after {
+	margin-left: 20px;
+	vertical-align: -0.6em;
+	content: "\201D"
+}
+
+.lower-body-section .back {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-image:
+		url("https://d107cgb5lgj7br.cloudfront.net/img/backgrounds/noise-blue.v1.png");
+	background-size: 100px 100px;
+	background-color: #15a1ec;
+	height: 290px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) , only
+	screen and (min-device-pixel-ratio: 1.5) {
+	.lower-body-section .back {
+		background-image:
+			url("https://d107cgb5lgj7br.cloudfront.net/img/backgrounds/noise-blue.v1@2x.png")
+	}
+}
+
+.lower-body-section .front {
+	position: absolute;
+	bottom: -40px;
+	z-index: 200;
+	width: 100%;
+	min-width: 800px;
+	left: 0;
+	height: 450px;
+	background-image:
+		url("https://d107cgb5lgj7br.cloudfront.net/accounts/img/auth/front.v1.png");
+	background-position: 0% 100%;
+	background-size: 100% auto;
+	background-repeat: no-repeat
+}
+
+.lower-body-section .clouds {
+	position: absolute;
+	z-index: 100;
+	height: 400px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+
+.lower-body-section .clouds1 {
+	background-image:
+		url("https://d107cgb5lgj7br.cloudfront.net/accounts/img/auth/clouds1.v1.png");
+	background-position: 0 0;
+	background-size: 1440px 184px;
+	background-repeat: repeat-x
+}
+
+.lower-body-section .clouds2 {
+	background-image:
+		url("https://d107cgb5lgj7br.cloudfront.net/accounts/img/auth/clouds2.v1.png");
+	background-position: 0% 0;
+	background-size: 1440px 232px;
+	background-repeat: repeat-x;
+	z-index: 150
+}
+
+.course-header .course-photo {
+	float: left;
+	padding: 5px 0
+}
+
+.course-header .course-photo img {
+	background-color: #e6e6e6;
+	width: 30px;
+	height: 30px;
+	padding: 1px;
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	border: 1px solid #e4e4e4
+}
+
+.course-header .course-photo img.spaced {
+	padding: 15px
+}
+
+.course-header .course-photo img .inner {
+	padding: 15px
+}
+
+.course-header .course-photo img .inner h1:first-child, .course-header .course-photo img .inner .h1:first-child,
+	.course-header .course-photo img .inner h2:first-child, .course-header .course-photo img .inner .h2:first-child,
+	.course-header .course-photo img .inner h3:first-child, .course-header .course-photo img .inner .h3:first-child,
+	.course-header .course-photo img .inner h4:first-child, .course-header .course-photo img .inner .h4:first-child,
+	.course-header .course-photo img .inner h5:first-child, .course-header .course-photo img .inner .h5:first-child,
+	.course-header .course-photo img .inner h6:first-child, .course-header .course-photo img .inner .h6:first-child
+	{
+	margin-top: -10px
+}
+
+.course-header .course-details {
+	float: left;
+	width: 650px;
+	margin-top: -5px;
+	margin-left: 15px
+}
+
+.course-header .course-details .course-name {
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	padding: 7px 0 0 0;
+	margin: 0;
+	font-size: 25px;
+	margin-top: -3px;
+	margin-bottom: 0
+}
+
+.course-header .course-details .course-name:hover {
+	text-decoration: none
+}
+
+.course-header .more-info {
+	float: right;
+	width: 200px;
+	padding-left: 25px;
+	text-align: center;
+	overflow: hidden;
+	*zoom: 1
+}
+
+.course-header .more-info .course-creator {
+	overflow: hidden;
+	*zoom: 1;
+	margin-top: 4px
+}
+
+.course-header .more-info .course-creator .thumbnail {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: -7px
+}
+
+.course-header .more-info .course-creator .details {
+	display: inline-block;
+	margin-left: 10px
+}
+
+.course-header .more-info .course-creator .details h5 {
+	font-weight: normal;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+	margin-top: 2px
+}
+
+.course-header .more-info .course-creator .details .creator-name {
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 4px;
+	margin-top: -5px
+}
+
+.course-header .share-box .btn {
+	margin-left: 5px
+}
+
+.course-header .share-box .btn:first-child {
+	margin-left: 0
+}
+
+.course-header.course-header-slim.with-share .course-details {
+	width: 500px
+}
+
+.course-header.course-header-slim.with-share .more-info {
+	width: 350px
+}
+
+.course-header.course-header-slim.with-share .share-box {
+	padding-top: 5px;
+	float: left
+}
+
+.course-header.course-header-fat .course-photo {
+	float: left;
+	padding: 5px 0
+}
+
+.course-header.course-header-fat .course-photo img, .course-header.course-header-fat .course-photo .empty
+	{
+	width: 200px;
+	height: 200px;
+	padding: 1px;
+	box-sizing: border-box;
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	border: 1px solid #e4e4e4
+}
+
+.course-header.course-header-fat .course-photo img.spaced,
+	.course-header.course-header-fat .course-photo .empty.spaced {
+	padding: 15px
+}
+
+.course-header.course-header-fat .course-photo img .inner,
+	.course-header.course-header-fat .course-photo .empty .inner {
+	padding: 15px
+}
+
+.course-header.course-header-fat .course-photo img .inner h1:first-child,
+	.course-header.course-header-fat .course-photo img .inner .h1:first-child,
+	.course-header.course-header-fat .course-photo img .inner h2:first-child,
+	.course-header.course-header-fat .course-photo img .inner .h2:first-child,
+	.course-header.course-header-fat .course-photo img .inner h3:first-child,
+	.course-header.course-header-fat .course-photo img .inner .h3:first-child,
+	.course-header.course-header-fat .course-photo img .inner h4:first-child,
+	.course-header.course-header-fat .course-photo img .inner .h4:first-child,
+	.course-header.course-header-fat .course-photo img .inner h5:first-child,
+	.course-header.course-header-fat .course-photo img .inner .h5:first-child,
+	.course-header.course-header-fat .course-photo img .inner h6:first-child,
+	.course-header.course-header-fat .course-photo img .inner .h6:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner h1:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner .h1:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner h2:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner .h2:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner h3:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner .h3:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner h4:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner .h4:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner h5:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner .h5:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner h6:first-child,
+	.course-header.course-header-fat .course-photo .empty .inner .h6:first-child
+	{
+	margin-top: -10px
+}
+
+.course-header.course-header-fat .course-details {
+	float: left;
+	width: 490px;
+	margin-top: -5px;
+	margin-left: 15px
+}
+
+.course-header.course-header-fat .course-details.wide {
+	width: 706px
+}
+
+.course-header.course-header-fat .course-details .course-breadcrumb {
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	border-bottom: 1px solid rgba(36, 123, 170, 0.5);
+	-webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) 0;
+	-moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) 0;
+	box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) 0
+}
+
+.course-header.course-header-fat .course-details .course-breadcrumb a {
+	color: #fff;
+	font-weight: bold
+}
+
+.course-header.course-header-fat .course-details .course-breadcrumb .ico
+	{
+	background-image:
+		url("https://d107cgb5lgj7br.cloudfront.net/img/sprites/icons-white.v3.png");
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+	opacity: 0.3
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) , only
+	screen and (min-device-pixel-ratio: 1.5) {
+	.course-header.course-header-fat .course-details .course-breadcrumb .ico
+		{
+		background-image:
+			url("https://d107cgb5lgj7br.cloudfront.net/img/sprites/icons-white.v3@2x.png")
+	}
+}
+
+.course-header.course-header-fat .course-details .course-name {
+	padding: 7px 0
+}
+
+.course-header.course-header-fat .course-details .course-description {
+	font-size: 16px
+}
+
+.course-header.course-header-fat .course-details .course-description .ellipsis
+	{
+	width: 300px;
+	display: inline-block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	vertical-align: top;
+	overflow: hidden
+}
+
+.course-header.course-header-fat .course-details .text-expand {
+	display: none;
+	cursor: pointer;
+	margin-left: 16px
+}
+
+.course-header.course-header-fat .course-details .text-expand:hover {
+	text-decoration: underline
+}
+
+.course-header.course-header-fat .course-details .text-expand .text {
+	font-size: 16px
+}
+
+.course-header.course-header-fat .course-details .text-expand .arrow {
+	display: inline-block;
+	width: 8px;
+	height: 6px;
+	margin: 1px 6px;
+	background-image:
+		url("https://d107cgb5lgj7br.cloudfront.net/img/icons/dropdown-expand.png");
+	background-position: center center;
+	background-size: 8px 6px;
+	background-repeat: no-repeat
+}
+
+.course-header.course-header-fat .course-details .intro {
+	font-size: 16px
+}
+
+.course-header.course-header-fat .course-details .course-progress {
+	display: none
+}
+
+.course-header.course-header-fat .course-details .course-enroll {
+	margin-top: 20px;
+	clear: both
+}
+
+.course-header.course-header-fat .course-details .course-enroll .btn {
+	width: 200px;
+	font-size: 18px;
+	font-weight: bold
+}
+
+.course-header.course-header-fat .more-info {
+	float: right;
+	width: 200px;
+	padding-left: 25px;
+	text-align: center;
+	margin-top: 23px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	*zoom: 1
+}
+
+.course-header.course-header-fat .more-info .course-creator {
+	overflow: hidden;
+	*zoom: 1;
+	padding-bottom: 15px;
+	margin-top: 4px
+}
+
+.course-header.course-header-fat .more-info .course-creator .thumbnail {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: -7px
+}
+
+.course-header.course-header-fat .more-info .course-creator .details {
+	display: inline-block;
+	margin-left: 10px
+}
+
+.course-header.course-header-fat .more-info .course-creator .details h5
+	{
+	font-weight: normal;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+	margin-top: 2px
+}
+
+.course-header.course-header-fat .more-info .course-creator .details .creator-name
+	{
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 4px;
+	margin-top: -5px
+}
+
+.course-header.course-header-fat .share-box h4 {
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 15px
+}
+
+#course-enroll-signup {
+	width: 380px;
+	margin-left: -190px
+}
+
+#course-enroll-signup .modal-body {
+	max-height: 490px
+}
+
+.progress-box {
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	border: 1px solid #e4e4e4;
+	padding: 20px 20px 5px 20px;
+	margin-bottom: 20px;
+	position: relative
+}
+
+.progress-box.spaced {
+	padding: 15px
+}
+
+.progress-box .inner {
+	padding: 15px
+}
+
+.progress-box .inner h1:first-child, .progress-box .inner .h1:first-child,
+	.progress-box .inner h2:first-child, .progress-box .inner .h2:first-child,
+	.progress-box .inner h3:first-child, .progress-box .inner .h3:first-child,
+	.progress-box .inner h4:first-child, .progress-box .inner .h4:first-child,
+	.progress-box .inner h5:first-child, .progress-box .inner .h5:first-child,
+	.progress-box .inner h6:first-child, .progress-box .inner .h6:first-child
+	{
+	margin-top: -10px
+}
+
+.progress-box .progress-box-title {
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	font-size: 16px;
+	line-height: 38px;
+	font-weight: bold;
+	color: #3e3e3e;
+	margin-top: -15px;
+	margin-bottom: 5px
+}
+
+.progress-box .progress-box-title .pull-right {
+	position: absolute;
+	right: 0
+}
+
+.progress-box .infos {
+	height: 50px;
+	margin-bottom: 20px;
+	position: relative
+}
+
+.progress-box hr {
+	margin: 2px 0 12px 0
+}
+
+.progress-box .actions {
+	min-height: 56px
+}
+
+.progress-box .actions.actions-left {
+	float: left
+}
+
+.progress-box .actions.actions-left .btn {
+	margin-top: 8px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px
+}
+
+.progress-box .actions.actions-right {
+	float: right
+}
+
+.progress-box .actions.actions-right .btn {
+	font-weight: bold;
+	margin: 8px 0 0 0;
+	padding: 8px 12px
+}
+
+.progress-box .actions.actions-right .btn .ico {
+	position: relative;
+	top: -6px;
+	left: -2px;
+	margin-bottom: -10px
+}
+
+.progress-box-level.with-icon hr, .progress-box-level.with-icon .infos,
+	.progress-box-level.with-icon .actions {
+	margin-left: 90px
+}
+
+.progress-box-level .level-icon {
+	position: absolute;
+	left: 15px;
+	top: 0;
+	width: 80px;
+	height: 110px;
+	padding-top: 12px;
+	text-align: center
+}
+
+.progress-box-level .level-icon .level-ico {
+	display: block;
+	margin: 5px auto 0 auto
+}
+
+.progress-box-level .level-number {
+	font-size: 16px;
+	color: #666
+}
+
+.progress-box-level .edit-button {
+	position: absolute;
+	right: 0;
+	top: 5px;
+	z-index: 10
+}
+
+.progress-box-level.with-icon .progress-box-title {
+	font-weight: normal;
+	font-size: 22px
+}
+
+.progress-box-level .multimedia-wrapper {
+	width: 600px;
+	margin-top: 50px;
+	margin-bottom: 30px
+}
+
+.progress-box-level .multimedia-wrapper .embed {
+	text-align: center
+}
+
+@
+-moz-keyframes box-pulse-blue {
+	from {-moz-box-shadow: #15a1ec 0 0 3px;
+	box-shadow: #15a1ec 0 0 3px
+}
+
+to {
+	-moz-box-shadow: #15a1ec 0 0 14px;
+	box-shadow: #15a1ec 0 0 14px
+}
+
+}
+@
+-webkit-keyframes box-pulse-blue {
+	from {-webkit-box-shadow: #15a1ec 0 0 3px;
+	box-shadow: #15a1ec 0 0 3px
+}
+
+to {
+	-webkit-box-shadow: #15a1ec 0 0 14px;
+	box-shadow: #15a1ec 0 0 14px
+}
+
+}
+@
+-o-keyframes box-pulse-blue {
+	from {box-shadow: #15a1ec 0 0 3px
+}
+
+to {
+	box-shadow: #15a1ec 0 0 14px
+}
+
+}
+@
+-ms-keyframes box-pulse-blue {
+	from {box-shadow: #15a1ec 0 0 3px
+}
+
+to {
+	box-shadow: #15a1ec 0 0 14px
+}
+
+}
+@
+keyframes box-pulse-blue {
+	from {-webkit-box-shadow: #15a1ec 0 0 3px;
+	-moz-box-shadow: #15a1ec 0 0 3px;
+	box-shadow: #15a1ec 0 0 3px
+}
+
+to {
+	-webkit-box-shadow: #15a1ec 0 0 14px;
+	-moz-box-shadow: #15a1ec 0 0 14px;
+	box-shadow: #15a1ec 0 0 14px
+}
+
+}
+@
+-moz-keyframes box-pulse-green {
+	from {-moz-box-shadow: #83c53d 0 0 3px;
+	box-shadow: #83c53d 0 0 3px
+}
+
+to {
+	-moz-box-shadow: #83c53d 0 0 14px;
+	box-shadow: #83c53d 0 0 14px
+}
+
+}
+@
+-webkit-keyframes box-pulse-green {
+	from {-webkit-box-shadow: #83c53d 0 0 3px;
+	box-shadow: #83c53d 0 0 3px
+}
+
+to {
+	-webkit-box-shadow: #83c53d 0 0 14px;
+	box-shadow: #83c53d 0 0 14px
+}
+
+}
+@
+-o-keyframes box-pulse-green {
+	from {box-shadow: #83c53d 0 0 3px
+}
+
+to {
+	box-shadow: #83c53d 0 0 14px
+}
+
+}
+@
+-ms-keyframes box-pulse-green {
+	from {box-shadow: #83c53d 0 0 3px
+}
+
+to {
+	box-shadow: #83c53d 0 0 14px
+}
+
+}
+@
+keyframes box-pulse-green {
+	from {-webkit-box-shadow: #83c53d 0 0 3px;
+	-moz-box-shadow: #83c53d 0 0 3px;
+	box-shadow: #83c53d 0 0 3px
+}
+
+to {
+	-webkit-box-shadow: #83c53d 0 0 14px;
+	-moz-box-shadow: #83c53d 0 0 14px;
+	box-shadow: #83c53d 0 0 14px
+}
+
+}
+@
+-moz-keyframes box-pulse-purple {
+	from {-moz-box-shadow: #aa5f86 0 0 3px;
+	box-shadow: #aa5f86 0 0 3px
+}
+
+to {
+	-moz-box-shadow: #aa5f86 0 0 14px;
+	box-shadow: #aa5f86 0 0 14px
+}
+
+}
+@
+-webkit-keyframes box-pulse-purple {
+	from {-webkit-box-shadow: #aa5f86 0 0 3px;
+	box-shadow: #aa5f86 0 0 3px
+}
+
+to {
+	-webkit-box-shadow: #aa5f86 0 0 14px;
+	box-shadow: #aa5f86 0 0 14px
+}
+
+}
+@
+-o-keyframes box-pulse-purple {
+	from {box-shadow: #aa5f86 0 0 3px
+}
+
+to {
+	box-shadow: #aa5f86 0 0 14px
+}
+
+}
+@
+-ms-keyframes box-pulse-purple {
+	from {box-shadow: #aa5f86 0 0 3px
+}
+
+to {
+	box-shadow: #aa5f86 0 0 14px
+}
+
+}
+@
+keyframes box-pulse-purple {
+	from {-webkit-box-shadow: #aa5f86 0 0 3px;
+	-moz-box-shadow: #aa5f86 0 0 3px;
+	box-shadow: #aa5f86 0 0 3px
+}
+
+to {
+	-webkit-box-shadow: #aa5f86 0 0 14px;
+	-moz-box-shadow: #aa5f86 0 0 14px;
+	box-shadow: #aa5f86 0 0 14px
+}
+
+}
+body.levels .levels {
+	padding: 0;
+	margin: 0;
+	width: 715px
+}
+
+body.levels .levels .level {
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	border: 1px solid #e4e4e4;
+	padding: 0;
+	color: #3e3e3e;
+	text-align: center;
+	cursor: pointer;
+	width: 125px;
+	overflow: hidden;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+	height: 189px;
+	float: left;
+	margin: 0 18px 15px 0
+}
+
+body.levels .levels .level.spaced {
+	padding: 15px
+}
+
+body.levels .levels .level .inner {
+	padding: 15px
+}
+
+body.levels .levels .level .inner h1:first-child, body.levels .levels .level .inner .h1:first-child,
+	body.levels .levels .level .inner h2:first-child, body.levels .levels .level .inner .h2:first-child,
+	body.levels .levels .level .inner h3:first-child, body.levels .levels .level .inner .h3:first-child,
+	body.levels .levels .level .inner h4:first-child, body.levels .levels .level .inner .h4:first-child,
+	body.levels .levels .level .inner h5:first-child, body.levels .levels .level .inner .h5:first-child,
+	body.levels .levels .level .inner h6:first-child, body.levels .levels .level .inner .h6:first-child
+	{
+	margin-top: -10px
+}
+
+body.levels .levels .level.disabled {
+	cursor: default
+}
+
+body.levels .levels .level.disabled .level-index {
+	background-image: none;
+	background-color: #ddd;
+	text-shadow: -2px -2px #d0d0d0
+}
+
+body.levels .levels .level .ico-complete {
+	margin-top: -8px
+}
+
+body.levels .levels .level .level-index {
+	position: absolute;
+	left: 50%;
+	text-align: center;
+	font-weight: bold;
+	color: #ccc;
+	font-size: 14px;
+	line-height: 14px;
+	background: #fff;
+	padding: 5px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: -15px;
+	top: 5px;
+	-webkit-border-radius: 0 0 20px 20px;
+	-moz-border-radius: 0 0 20px 20px;
+	-ms-border-radius: 0 0 20px 20px;
+	-o-border-radius: 0 0 20px 20px;
+	border-radius: 0 0 20px 20px
+}
+
+body.levels .levels .level .level-icon {
+	height: 125px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	margin: 10px 10px 0 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px
+}
+
+body.levels .levels .level .level-icon .level-ico {
+	margin-top: 20px
+}
+
+body.levels .levels .level .level-icon .progress {
+	margin: 10px
+}
+
+body.levels .levels .level .level-icon .txt {
+	margin: 10px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #aaa
+}
+
+body.levels .levels .level .level-title, body.levels .levels .level .level-status
+	{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	margin-top: 5px;
+	padding: 10px 0;
+	font-size: 11px;
+	line-height: 12px
+}
+
+body.levels .levels .level .level-title {
+	font-weight: bold;
+	width: auto;
+	padding: 10px 8px 0;
+	height: 35px
+}
+
+body.levels .levels .level .level-edit-link {
+	position: absolute;
+	right: 3px;
+	margin-top: -5px
+}
+
+body.levels .levels .level .level-status {
+	color: #aaa;
+	padding-top: 0;
+	padding-bottom: 10px
+}
+
+body.levels .levels .level .level-status .progress {
+	height: 8px;
+	margin: 0 10px
+}
+
+body.levels .levels .level:hover {
+	text-decoration: none
+}
+
+body.levels .levels .level:hover:not (.noactions ), body.levels .levels .level.force-hover
+	{
+	-webkit-box-shadow: 1px 5px 0 rgba(0, 0, 0, 0.15) 0;
+	-moz-box-shadow: 1px 5px 0 rgba(0, 0, 0, 0.15) 0;
+	box-shadow: 1px 5px 0 rgba(0, 0, 0, 0.15) 0
+}
+
+body.levels .levels .level.faded {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+	opacity: 0.6
+}
+
+body.levels .levels .level.faded:hover {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1
+}
+
+body.levels .levels .level.highlight-purple {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+	-webkit-box-shadow: purple 0 0 3px;
+	-moz-box-shadow: purple 0 0 3px;
+	box-shadow: purple 0 0 3px;
+	-webkit-animation: box-pulse-purple 0.8s linear infinite alternate;
+	-moz-animation: box-pulse-purple 0.8s linear infinite alternate;
+	-ms-animation: box-pulse-purple 0.8s linear infinite alternate;
+	-o-animation: box-pulse-purple 0.8s linear infinite alternate;
+	animation: box-pulse-purple 0.8s linear infinite alternate
+}
+
+body.levels .levels .level.highlight-purple:hover {
+	-webkit-box-shadow: purple 0 0 5px;
+	-moz-box-shadow: purple 0 0 5px;
+	box-shadow: purple 0 0 5px;
+	-webkit-animation: none;
+	-moz-animation: none;
+	-ms-animation: none;
+	-o-animation: none;
+	animation: none
+}
+
+body.levels .levels .level.highlight-green {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+	-webkit-box-shadow: green 0 0 3px;
+	-moz-box-shadow: green 0 0 3px;
+	box-shadow: green 0 0 3px;
+	-webkit-animation: box-pulse-green 0.8s linear infinite alternate;
+	-moz-animation: box-pulse-green 0.8s linear infinite alternate;
+	-ms-animation: box-pulse-green 0.8s linear infinite alternate;
+	-o-animation: box-pulse-green 0.8s linear infinite alternate;
+	animation: box-pulse-green 0.8s linear infinite alternate
+}
+
+body.levels .levels .level.highlight-green:hover {
+	-webkit-box-shadow: green 0 0 5px;
+	-moz-box-shadow: green 0 0 5px;
+	box-shadow: green 0 0 5px;
+	-webkit-animation: none;
+	-moz-animation: none;
+	-ms-animation: none;
+	-o-animation: none;
+	animation: none
+}
+
+body.levels .levels .level.highlight-blue {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+	-webkit-box-shadow: blue 0 0 3px;
+	-moz-box-shadow: blue 0 0 3px;
+	box-shadow: blue 0 0 3px;
+	-webkit-animation: box-pulse-blue 0.8s linear infinite alternate;
+	-moz-animation: box-pulse-blue 0.8s linear infinite alternate;
+	-ms-animation: box-pulse-blue 0.8s linear infinite alternate;
+	-o-animation: box-pulse-blue 0.8s linear infinite alternate;
+	animation: box-pulse-blue 0.8s linear infinite alternate
+}
+
+body.levels .levels .level.highlight-blue:hover {
+	-webkit-box-shadow: blue 0 0 5px;
+	-moz-box-shadow: blue 0 0 5px;
+	box-shadow: blue 0 0 5px;
+	-webkit-animation: none;
+	-moz-animation: none;
+	-ms-animation: none;
+	-o-animation: none;
+	animation: none
+}
+
+body.levels .levels .level.level-l {
+	width: 210px;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+	cursor: default;
+	height: auto;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none
+}
+
+body.levels .levels .level.level-l .level-index {
+	top: 18px;
+	font-size: 18px;
+	line-height: 18px;
+	background: transparent
+}
+
+body.levels .levels .level.level-l .level-icon {
+	height: 235px
+}
+
+body.levels .levels .level.level-l .level-icon .level-ico {
+	margin-top: 36px
+}
+
+body.levels .levels .level.level-l .level-title, body.levels .levels .level.level-l .level-status
+	{
+	padding: 12px 0;
+	font-size: 14px;
+	line-height: 14px
+}
+
+body.levels .levels .level.level-l .level-title {
+	padding-top: 8px;
+	padding-bottom: 10px;
+	line-height: 18px;
+	margin-bottom: 5px
+}
+
+body.levels .levels .level.level-l .level-status {
+	padding-top: 5px
+}
+
+body.levels .levels .level.level-l .progress {
+	height: 12px
+}
+
+body.levels .levels .level.level-l .level-actions {
+	display: block;
+	text-align: center;
+	padding: 10px 0
+}
+
+body.levels .levels .level.level-l .level-actions #go-button {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	width: 90%
+}
+
+.forum-box h3 {
+	margin-top: 0
+}
+
+.filter-sort {
+	position: relative;
+	right: 18px
+}
+
+.dashboard .tooltip.fixed {
+	position: fixed !important
+}
+
+.dashboard section {
+	margin-bottom: 40px
+}
+
+.dashboard section .wrapper {
+	position: relative
+}
+
+.dashboard section .wrapper.withSpinner .whitebox .loading-spinner {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -16px 0 0 -16px
+}
+
+.dashboard section .wrapper #chart-learning {
+	height: 330px;
+	padding-top: 0
+}
+
+.dashboard section .wrapper .header {
+	float: left;
+	width: 100%
+}
+
+.dashboard section .wrapper .header #learning-graph-dropdown .btn1 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	max-width: 230px
+}
+
+.dashboard section .wrapper h1 {
+	margin: 16px 0 0 16px
+}
+
+.dashboard section .wrapper .name.inline {
+	margin: 0 0 0 16px;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-top: 0
+}
+
+.dashboard section .wrapper .name.inline.narrow {
+	max-width: 420px
+}
+
+.dashboard section .wrapper .name.inline.wide {
+	max-width: 704px
+}
+
+.dashboard section .wrapper .btn-group {
+	margin: 16px 16px 0 0
+}
+
+.dashboard section .wrapper .row-fluid .span3 {
+	border-right: 1px solid #ddd;
+	margin: 14px 0
+}
+
+.dashboard section .wrapper .row-fluid .span3:first-child {
+	margin-left: 16px
+}
+
+.dashboard section .wrapper .row-fluid .span3:last-child {
+	border-right: 0px
+}
+
+.dashboard section .wrapper .row-fluid .span3 .boxHead {
+	text-align: center;
+	width: 100%;
+	border-color: #dcdcdc;
+	margin-bottom: 6px
+}
+
+.dashboard section .wrapper .row-fluid .span3 .boxHead p, .dashboard section .wrapper .row-fluid .span3 .boxHead span
+	{
+	color: #778E9A;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0
+}
+
+.dashboard section .wrapper .row-fluid .span3 .boxBody {
+	background-color: white;
+	width: 100%;
+	text-align: center
+}
+
+.dashboard section .wrapper .row-fluid .span3 .boxBody span {
+	font-size: 12px;
+	color: #28A9EA;
+	margin: 0
+}
+
+.dashboard section .wrapper .row-fluid .span3 .boxBody span.large {
+	display: inline-block;
+	font-size: 30px;
+	margin: 0;
+	margin-right: 6px;
+	font-weight: bold
+}
+
+.dashboard section .wrapper .row-fluid .span3 .boxBody span.day {
+	font-size: 16px;
+	font-weight: bold
+}
+
+.dashboard section .wrapper .attendance-grid {
+	height: 109px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	background-color: white;
+	font-size: 11px;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "Kai", "KaiTi",
+		Sans-Serif;
+	shape-rendering: crispedges;
+	fill: #666;
+	padding: 12px 0 4px 12px
+}
+
+.dashboard section .wrapper .attendance-grid .day {
+	fill: #fff;
+	stroke: #fff
+}
+
+.dashboard section .wrapper .attendance-grid .day:hover {
+	stroke: #888;
+	stroke-width: 1px
+}
+
+.dashboard section .wrapper .attendance-grid .month {
+	fill: none;
+	stroke: none
+}
+
+.dashboard section .wrapper .attendance-grid .day-boxes .q0 {
+	fill: #eaeaea
+}
+
+.dashboard section .wrapper .attendance-grid .day-boxes .q1 {
+	fill: #a3daf7
+}
+
+.dashboard section .wrapper .attendance-grid .day-boxes .q2 {
+	fill: #5cbdf2
+}
+
+.dashboard section .wrapper .attendance-grid .day-boxes .q3 {
+	fill: #15a1ec
+}
+
+.analytics .tooltip.fixed, .difficult-text-container .tooltip.fixed {
+	position: fixed !important
+}
+
+.analytics section, .difficult-text-container section {
+	margin-bottom: 40px
+}
+
+.analytics section:last-of-type, .difficult-text-container section:last-of-type
+	{
+	margin-bottom: 0
+}
+
+.analytics section h1, .difficult-text-container section h1 {
+	margin: 0 0 20px 0
+}
+
+.analytics section h1.inline, .difficult-text-container section h1.inline,
+	.analytics section h2.inline, .difficult-text-container section h2.inline
+	{
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-top: 0
+}
+
+.analytics section h1.inline.narrow, .difficult-text-container section h1.inline.narrow,
+	.analytics section h2.inline.narrow, .difficult-text-container section h2.inline.narrow
+	{
+	max-width: 420px
+}
+
+.analytics section h1.inline.wide, .difficult-text-container section h1.inline.wide,
+	.analytics section h2.inline.wide, .difficult-text-container section h2.inline.wide
+	{
+	max-width: 704px
+}
+
+.analytics section .wrapper, .difficult-text-container section .wrapper
+	{
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	box-shadow: rgba(0, 0, 0, 0.08) 0 1px 2px;
+	border: 1px solid #e4e4e4;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	padding: 12px
+}
+
+.analytics section .wrapper.withSpinner .whitebox,
+	.difficult-text-container section .wrapper.withSpinner .whitebox {
+	position: relative
+}
+
+.analytics section .wrapper.withSpinner .whitebox .loading-spinner,
+	.difficult-text-container section .wrapper.withSpinner .whitebox .loading-spinner
+	{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -16px;
+	height: 450px
+}
+
+.analytics section .wrapper image, .difficult-text-container section .wrapper image
+	{
+	cursor: pointer
+}
+
+.analytics section .wrapper #imageGrab, .difficult-text-container section .wrapper #imageGrab
+	{
+	display: none;
+	height: 0;
+	width: 0
+}
+
+.analytics section .wrapper .chartHeader, .difficult-text-container section .wrapper .chartHeader
+	{
+	height: 50px
+}
+
+.analytics section .wrapper .chartHeader.filters,
+	.difficult-text-container section .wrapper .chartHeader.filters {
+	height: 70px
+}
+
+.analytics section .wrapper .chartHeader .dropdownSection,
+	.difficult-text-container section .wrapper .chartHeader .dropdownSection
+	{
+	display: inline-block;
+	width: 172px;
+	text-align: center
+}
+
+.analytics section .wrapper .chartHeader .dropdownSection .filter,
+	.difficult-text-container section .wrapper .chartHeader .dropdownSection .filter
+	{
+	margin: 0
+}
+
+.analytics section .wrapper .chartHeader .dropdownSection .filter .btn1,
+	.difficult-text-container section .wrapper .chartHeader .dropdownSection .filter .btn1
+	{
+	min-width: 80px;
+	max-width: 132px
+}
+
+.analytics section .wrapper .chartHeader .dropdownSection .filter .btn1.bgGreen,
+	.difficult-text-container section .wrapper .chartHeader .dropdownSection .filter .btn1.bgGreen
+	{
+	background: #83c53d;
+	color: #eee
+}
+
+.analytics section .wrapper .chartHeader .dropdownSection .filter .dropdown-menu,
+	.difficult-text-container section .wrapper .chartHeader .dropdownSection .filter .dropdown-menu
+	{
+	text-align: left
+}
+
+.analytics section .wrapper .chartHeader .dropdownSection .filter .dropdownLabel,
+	.difficult-text-container section .wrapper .chartHeader .dropdownSection .filter .dropdownLabel
+	{
+	font-weight: bold
+}
+
+.analytics section .wrapper .chartHeader #learning-graph-dropdown .btn1,
+	.difficult-text-container section .wrapper .chartHeader #learning-graph-dropdown .btn1
+	{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	max-width: 230px
+}
+
+.analytics section .wrapper.cta, .difficult-text-container section .wrapper.cta
+	{
+	position: relative
+}
+
+.analytics section .wrapper.cta a, .difficult-text-container section .wrapper.cta a
+	{
+	position: absolute;
+	bottom: 140px;
+	left: 266px
+}
+
+.analytics section .wrapper .hidden, .difficult-text-container section .wrapper .hidden
+	{
+	display: none
+}
+
+.analytics section .wrapper .text, .difficult-text-container section .wrapper .text
+	{
+	font-size: 16px;
+	vertical-align: middle
+}
+
+.analytics section .wrapper .text.b, .difficult-text-container section .wrapper .text.b
+	{
+	font-weight: bold
+}
+
+.analytics section .wrapper .text.ib, .difficult-text-container section .wrapper .text.ib
+	{
+	display: inline-block;
+	width: 240px
+}
+
+.analytics section .wrapper .text.header, .difficult-text-container section .wrapper .text.header
+	{
+	font-size: 20px
+}
+
+.analytics section .wrapper .fieldRow, .difficult-text-container section .wrapper .fieldRow
+	{
+	margin-top: 10px
+}
+
+.analytics section .wrapper .btn-group, .difficult-text-container section .wrapper .btn-group
+	{
+	margin: 0 8px
+}
+
+.analytics section .wrapper .btn-group.listMedium .dropdown-menu,
+	.difficult-text-container section .wrapper .btn-group.listMedium .dropdown-menu
+	{
+	max-height: 400px;
+	max-width: 380px;
+	overflow-y: scroll
+}
+
+.analytics section .wrapper .btn-group.listMedium .dropdown-menu li a,
+	.difficult-text-container section .wrapper .btn-group.listMedium .dropdown-menu li a
+	{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.analytics section .wrapper .btn-group.pull-right.noMrg,
+	.difficult-text-container section .wrapper .btn-group.pull-right.noMrg
+	{
+	margin-right: 0
+}
+
+.analytics section .wrapper .btn-group .norm, .difficult-text-container section .wrapper .btn-group .norm
+	{
+	width: 80px
+}
+
+.analytics section .wrapper .btn-group .wide, .difficult-text-container section .wrapper .btn-group .wide
+	{
+	width: 180px
+}
+
+.analytics section .wrapper.spaced, .difficult-text-container section .wrapper.spaced
+	{
+	padding: 15px
+}
+
+.analytics section .wrapper .inner, .difficult-text-container section .wrapper .inner
+	{
+	padding: 15px
+}
+
+.analytics section .wrapper .inner h1:first-child,
+	.difficult-text-container section .wrapper .inner h1:first-child,
+	.analytics section .wrapper .inner .h1:first-child,
+	.difficult-text-container section .wrapper .inner .h1:first-child,
+	.analytics section .wrapper .inner h2:first-child,
+	.difficult-text-container section .wrapper .inner h2:first-child,
+	.analytics section .wrapper .inner .h2:first-child,
+	.difficult-text-container section .wrapper .inner .h2:first-child,
+	.analytics section .wrapper .inner h3:first-child,
+	.difficult-text-container section .wrapper .inner h3:first-child,
+	.analytics section .wrapper .inner .h3:first-child,
+	.difficult-text-container section .wrapper .inner .h3:first-child,
+	.analytics section .wrapper .inner h4:first-child,
+	.difficult-text-container section .wrapper .inner h4:first-child,
+	.analytics section .wrapper .inner .h4:first-child,
+	.difficult-text-container section .wrapper .inner .h4:first-child,
+	.analytics section .wrapper .inner h5:first-child,
+	.difficult-text-container section .wrapper .inner h5:first-child,
+	.analytics section .wrapper .inner .h5:first-child,
+	.difficult-text-container section .wrapper .inner .h5:first-child,
+	.analytics section .wrapper .inner h6:first-child,
+	.difficult-text-container section .wrapper .inner h6:first-child,
+	.analytics section .wrapper .inner .h6:first-child,
+	.difficult-text-container section .wrapper .inner .h6:first-child {
+	margin-top: -10px
+}
+
+.analytics section .wrapper .row-fluid, .difficult-text-container section .wrapper .row-fluid
+	{
+	position: relative;
+	min-height: 52px
+}
+
+.analytics section .wrapper .row-fluid.mrgTop, .difficult-text-container section .wrapper .row-fluid.mrgTop
+	{
+	margin-top: 20px
+}
+
+.analytics section .wrapper .boxHead, .difficult-text-container section .wrapper .boxHead
+	{
+	text-align: center;
+	float: left;
+	width: 100%;
+	overflow: ellipsis;
+	border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	-ms-border-radius: 3px 3px 0 0;
+	-o-border-radius: 3px 3px 0 0;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: #dcdcdc
+}
+
+.analytics section .wrapper .boxHead.purple, .difficult-text-container section .wrapper .boxHead.purple
+	{
+	background: #aa5f86
+}
+
+.analytics section .wrapper .boxHead.green, .difficult-text-container section .wrapper .boxHead.green
+	{
+	background: #83c53d
+}
+
+.analytics section .wrapper .boxHead.blue, .difficult-text-container section .wrapper .boxHead.blue
+	{
+	background: #15a1ec
+}
+
+.analytics section .wrapper .boxHead.grey, .difficult-text-container section .wrapper .boxHead.grey
+	{
+	background: #a1a1a1
+}
+
+.analytics section .wrapper .boxHead.red, .difficult-text-container section .wrapper .boxHead.red
+	{
+	background: #bb2e25
+}
+
+.analytics section .wrapper .boxHead p, .difficult-text-container section .wrapper .boxHead p,
+	.analytics section .wrapper .boxHead span, .difficult-text-container section .wrapper .boxHead span
+	{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0
+}
+
+.analytics section .wrapper .boxHead .large, .difficult-text-container section .wrapper .boxHead .large
+	{
+	display: inline-block;
+	font-size: 58px;
+	margin: 10px 0 40px
+}
+
+.analytics section .wrapper .boxHead .day, .difficult-text-container section .wrapper .boxHead .day
+	{
+	vertical-align: baseline;
+	font-size: 28px;
+	margin-left: 10px
+}
+
+.analytics section .wrapper .boxBody, .difficult-text-container section .wrapper .boxBody
+	{
+	float: left;
+	background-color: white;
+	width: 100%;
+	border-radius: 0 0 3px 3px;
+	webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	-ms-border-radius: 0 0 3px 3px;
+	-o-border-radius: 0 0 3px 3px;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: #dcdcdc
+}
+
+.analytics section .wrapper .boxBody p, .difficult-text-container section .wrapper .boxBody p
+	{
+	padding: 10px;
+	font-size: 12px;
+	color: #666;
+	margin: 0
+}
+
+.analytics section .wrapper .boxBody .dir, .difficult-text-container section .wrapper .boxBody .dir
+	{
+	margin-bottom: 10px;
+	text-align: center
+}
+
+.analytics section .wrapper .attendance-grid, .difficult-text-container section .wrapper .attendance-grid
+	{
+	height: 109px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	background-color: white;
+	font-size: 11px;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "Kai", "KaiTi",
+		Sans-Serif;
+	shape-rendering: crispedges;
+	fill: #666;
+	margin-bottom: 12px;
+	padding: 12px 0 12px 12px
+}
+
+.analytics section .wrapper .attendance-grid .day,
+	.difficult-text-container section .wrapper .attendance-grid .day {
+	fill: #fff;
+	stroke: #fff
+}
+
+.analytics section .wrapper .attendance-grid .day:hover,
+	.difficult-text-container section .wrapper .attendance-grid .day:hover
+	{
+	stroke: #888;
+	stroke-width: 1px
+}
+
+.analytics section .wrapper .attendance-grid .month,
+	.difficult-text-container section .wrapper .attendance-grid .month {
+	fill: none;
+	stroke: none
+}
+
+.analytics section .wrapper .attendance-grid .day-boxes .q0,
+	.difficult-text-container section .wrapper .attendance-grid .day-boxes .q0
+	{
+	fill: #eaeaea
+}
+
+.analytics section .wrapper .attendance-grid .day-boxes .q1,
+	.difficult-text-container section .wrapper .attendance-grid .day-boxes .q1
+	{
+	fill: #a3daf7
+}
+
+.analytics section .wrapper .attendance-grid .day-boxes .q2,
+	.difficult-text-container section .wrapper .attendance-grid .day-boxes .q2
+	{
+	fill: #5cbdf2
+}
+
+.analytics section .wrapper .attendance-grid .day-boxes .q3,
+	.difficult-text-container section .wrapper .attendance-grid .day-boxes .q3
+	{
+	fill: #15a1ec
+}
+
+.analytics section .wrapper .wrapup, .difficult-text-container section .wrapper .wrapup
+	{
+	display: inline-block;
+	margin-top: 10px;
+	line-height: 38px;
+	font-weight: bold
+}
+
+.analytics section .wrapper .wrapup.big, .difficult-text-container section .wrapper .wrapup.big
+	{
+	font-size: 18px
+}
+
+.analytics section .wrapper .wrapup.noTopMrg, .difficult-text-container section .wrapper .wrapup.noTopMrg
+	{
+	margin-top: 0
+}
+
+.analytics section .wrapper .wrapup .num, .difficult-text-container section .wrapper .wrapup .num
+	{
+	display: inline-block;
+	color: #15a1ec;
+	font-size: 26px;
+	margin: 0 4px
+}
+
+.analytics section .wrapper .wrapup .big, .difficult-text-container section .wrapper .wrapup .big
+	{
+	font-size: 26px;
+	margin-left: 4px
+}
+
+.analytics section .wrapper .wrapupHint, .difficult-text-container section .wrapper .wrapupHint
+	{
+	display: block;
+	margin: -10px 0 0 4px
+}
+
+.analytics section .wrapper .mainBtn, .difficult-text-container section .wrapper .mainBtn
+	{
+	position: absolute;
+	right: 0;
+	bottom: 0
+}
+
+.analytics .amchart, .difficult-text-container .amchart {
+	padding: 0
+}
+
+.analytics .amchart#chart-learning, .difficult-text-container .amchart#chart-learning,
+	.analytics .amchart#chart-testing, .difficult-text-container .amchart#chart-testing
+	{
+	visibility: hidden
+}
+
+.analytics .amchart#chart-coursetime, .difficult-text-container .amchart#chart-coursetime
+	{
+	height: 365px
+}
+
+.analytics .nav li.active a, .difficult-text-container .nav li.active a
+	{
+	color: #000;
+	font-weight: bold
+}
+
+.analytics .nav li.active a:hover, .difficult-text-container .nav li.active a:hover
+	{
+	background-color: transparent
+}
+
+.analytics .learning-streak .whitebox, .difficult-text-container .learning-streak .whitebox
+	{
+	padding: 5px
+}
+
+.modal.dynamic {
+	left: 0;
+	top: 0;
+	margin: 0;
+	width: inherit;
+	visibility: hidden;
+	overflow: visible
+}
+
+.modal.dynamic .modal-body {
+	max-height: none
+}
+
+.modal.seeThru {
+	background: none;
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none
+}
+
+#imageForumPost .right {
+	text-align: right
+}
+
+#imageForumPost .postedImage {
+	height: 400px;
+	width: 710px
+}
+
+#imageForumPost .postedImage img {
+	height: 100%;
+	width: 100%
+}
+
+#imageForumPost .threadTitle {
+	height: 40px;
+	width: 100%
+}
+
+#imageForumPost .threadContent {
+	height: 70px;
+	width: 100%
+}
+
+.difficult-text-container .spaced-bottom {
+	padding-bottom: 5px
+}
+
+@media ( min-width : 768px) {
+	.difficult-text-container .padded {
+		padding: 25px 15px !important
+	}
+}

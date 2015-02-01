@@ -1,0 +1,280 @@
+@(user: models.User, level: models.Level)
+
+@displayProgress() = {
+	<div class="level-icon">
+    	<strong class="level-number">@level.title</strong>
+		<i class="level-ico level-ico-plant-inactive"></i>
+	</div>
+	<div class="infos">
+	<h3 class="progress-box-title">@level.title</h3>
+	@level.status match {
+		case "plant" => { <div class="progress" title="100% learned" data-placement="bottom"><span class="bar bar-success" style="width: 100%;"></span></div> }
+		case "seed"  => { <div class="progress"><div class="bar bar-success" style="width: @level.completedPercentage%;"></div></div> }
+		case "inactive" => { <div class="progress"></div> }
+	}    
+	</div>
+}
+
+@displayFact(fact: MathFact) = {
+	<div class="thing text-text" data-thing-id="4209027">
+		<div class="thinguser">
+			@fact.status match {
+				case "plant"  => { <i class="ico ico-water ico-blue"></i><div class="status">in @fact.review</div> }
+				case "seed" => { <div class="progress"><div class="bar bar-success" style="width:83%"></div></div> }				
+				case "inactive" => { <i class="ico ico-seed ico-purple"></i> }
+			}
+		</div>
+		<div class="ignore-ui pull-right">
+			<input type="checkbox" >
+		</div>
+		<div class="col_a col text">
+			<div class="text">@fact.toString</div>
+		</div>
+		<div class="col_b col text">
+			<div class="text">@fact.value</div>
+		</div>
+	</div>	
+}
+
+<html>
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+		<title>HSK level 1 - Introductory Mandarin (with audio) - Memrise</title>
+		<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta property="fb:app_id" content="143688012353890" /><meta property="fb:page_id" content="149149908445051" />
+		<meta name="verify-v1" content="r5bzTFj/sOtziIZeSFKZUP+iE3hSIhSVsZvGn5UvoA4=" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta property="og:site_name" content="Memrise" />
+		<meta property="og:title" content="HSK level 1 - Introductory Mandarin (with audio)" />
+		<meta property="twitter:card" content="summary" />
+		<meta property="twitter:title" content="HSK level 1 - Introductory Mandarin (with audio) - Learn Chinese on memrise" />
+		<meta name="description" content="This set will give you the foundation you need to be able to communicate in Chinese." />
+		<meta property="og:description" content="This set will give you the foundation you need to be able to communicate in Chinese." />
+		<meta property="twitter:description" content="This set will give you the foundation you need to be able to communicate in Chinese." />
+		<meta property="og:url" content="http://www.memrise.com/course/541/hsk-level-1-introductory-mandarin-with-audio/" />
+		<meta property="og:image" content="http://d2rhekw5qr4gcj.cloudfront.net/img/400sqf/from/uploads/course_photos/hsk1.png" />
+		<meta property="twitter:image" content="http://d2rhekw5qr4gcj.cloudfront.net/img/400sqf/from/uploads/course_photos/hsk1.png" />
+		<meta property="og:site_name" content="Memrise" />
+		<link href="https://plus.google.com/113645013176360560927/" rel="publisher" />
+		<link rel="canonical" href="http://www.memrise.com/course/541/hsk-level-1-introductory-mandarin-with-audio/" />
+		<link href="https://plus.google.com/113645013176360560927/" rel="publisher" />
+		<link rel="icon" type="image/png" href="http://static.memrise.com/img/icon_16x16.png?v=10d9fe" />
+		<link rel="apple-touch-icon" sizes="72x72" href="http://static.memrise.com/img/logo/white-iphone.png?v=10d9fe" />
+		<link rel="apple-touch-icon" sizes="114x114" href="http://static.memrise.com/img/logo/white-ipad.png?v=10d9fe" />
+		<link rel="image_src" href="http://d2rhekw5qr4gcj.cloudfront.net/img/400sqf/from/uploads/course_photos/hsk1.png">
+		<link rel="stylesheet" type="text/css" href="http://static.memrise.com/css/gz/bootstrap.css?v=10d9fe" />
+		<link rel="stylesheet" type="text/css" href="http://static.memrise.com/css/gz/web.css?v=10d9fe" />
+		<link rel="stylesheet" type="text/css" href="http://static.memrise.com/css/gz/icons.css?v=10d9fe" />
+		<link rel="stylesheet" type="text/css" href="http://static.memrise.com/garden/css/views/course.css?v=10d9fe" />
+		<link rel="stylesheet" type="text/css" href="http://static.memrise.com/garden/css/views/level.css?v=6e7637">
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="http://static.memrise.com/css/ie8.css?v=10d9fe" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://static.memrise.com/css/ie.css?v=10d9fe" /><![endif]-->
+	</head>
+	<body class="reverse-header-ruled level-view"  data-course-id="541" data-level-id="17455">
+		
+		<div class="course-tabs-wrap">
+			<div class="container">
+				
+				<ul class="nav nav-pills chromeless">
+					<li>
+						<a href="/facts/@user.id/" class="tab">
+							<i class="ico ico-list"></i>						
+							Levels (32)							
+						</a>
+					</li>
+					<li>
+						<a href="/facts/@user.id/level/@level.id/difficult/">
+							<span class="nav-premium"></span>
+							Most difficult facts
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		
+		<div id="content" class="">
+			<div class="container container-main">
+				
+				<div class="central-column">
+					<div class="progress-box progress-box-level with-icon">
+						@displayProgress()
+						
+						<hr>
+						
+						<div class="actions actions-left">
+							
+							<div class="btn-group">
+								<button class="btn btn-ico btn-icos-active dropdown-toggle" data-toggle="dropdown">
+								Options
+								<i class="ico ico-arr-down"></i>
+								</button>
+								<ul class="dropdown-menu">									
+									
+									<li>
+										<a href="/course/541/hsk-level-1-introductory-mandarin-with-audio/3/garden/preview/"
+											title="Show facts as presentations [Accesskey: P]"
+											data-placement="right"
+											accesskey="p">
+											<i class="ico ico-look"></i>
+											Preview
+										</a>
+									</li>
+									
+									<li>
+										<a href="#"
+											data-role="level-restart"
+											title="Wipe your learning history"
+											data-placement="right">
+											<i class="ico ico-loop"></i>
+											Restart
+										</a>
+									</li>
+									
+									
+									
+								</ul>
+							</div>
+							
+						</div>
+						<div class="actions actions-right">
+							
+							<a id="go-button"
+								href="/course/541/hsk-level-1-introductory-mandarin-with-audio/3/garden/review/"
+								class="btn roundy btn-large"
+								title="Practice facts you've already learned [Shortcut: Enter]"
+								data-placement="top">
+								<i class="ico ico-water"></i>
+								Review
+							</a>
+							
+						</div>
+						<div class="clear"></div>
+					</div>
+					<h4>
+					@level.factsQty facts
+					<span class="pull-right">
+					0 ignored
+					</span>
+					</h4>
+					
+					<div class="things clearfix" data-column-a="2" data-column-b="1">
+						<div class="things-header things-row">
+							<a class="ignore-show btn btn-icos-active btn-small roundy pull-right"
+								title="Change whether words appear in learning sessions"
+								data-placement="right">
+								<i class="ico ico-settings"></i>
+								Ignore
+							</a>
+							<i class="ico ico-seed ico-purple"></i> Ready to learn	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<i class="ico ico-water ico-blue"></i> Ready to review
+						</div>
+						<div class="ignore-ui things-row clearfix">
+							<h2>Ignore words</h2>
+							<p>Check the boxes below to ignore/unignore words, then click save at the bottom. Ignored words will never appear in any learning session.</p>
+							<p class="align-right">
+								<a href="#" class="ignore-all btn btn-small">All</a>
+								<a href="#" class="ignore-none btn btn-small">None</a>
+							</p>
+						</div>
+
+						<div class="ignore-ui things-row" style="text-align: right">
+							<strong>Ignore?</strong>
+						</div>
+						
+						@level.facts.map { fact => @displayFact(fact) }
+						
+						<div class="things-footer things-row clearfix">
+							<a class="ignore-save ignore-ui btn pull-right btn-primary btn-large btn-block roundy hide">Save</a>
+						</div>
+					</div>
+			
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+<script src="http://static.memrise.com/js/extern/jquery/jquery.1.7.2.min.js"></script>
+
+<script type="text/javascript">
+	MEMRISE = {
+		DEBUG : false,
+		STATIC_URL : 'http://static.memrise.com/',
+		GIT_SHA : '6e76373a7ac08a7ba41d784f75986788b0f22b32',
+		GIT_SHA_FRAGMENT : '6e7637',
+		FACEBOOK_APP_ID : '143688012353890',
+		FACEBOOK_CHANNEL : "/fb/channel/",
+		GOOGLE_ANALYTICS_ID : 'UA-1631385-8',
+		DOMAIN : 'http://www.memrise.com',
+		ZZISH_APP_ID : '7df2a719-d628-4bed-9b20-62a69054d348',
+		csrftoken : "OOubQqEq0oxLhG2mPCPoaLxEqpUrVYSQ",
+		user : {
+			is_authenticated : true
+
+			,
+			id : 7067502,
+			username : 'cruzcharlie',
+
+			profile : {
+				settings : {
+					mem_creation_share_disabled : false,
+					mem_creation_tutorial_seen : false,
+				}
+			},
+			is_premium : true,
+
+		},
+
+	};
+</script>
+<script type="text/javascript" src="http://static.memrise.com/js/gz/templates.min.js?v=6e7637"></script>
+<script type="text/javascript" src="http://static.memrise.com/js/gz/brochureware.min.js?v=6e7637"></script>
+<script type="text/javascript" src="http://static.memrise.com/js/gz/tracking.min.js?v=6e7637"></script>
+<!--[if lte IE 9]>
+<script type="text/javascript" src="http://static.memrise.com/js/ie.js?v=6e7637"></script>
+<![endif]-->
+
+<script type="text/javascript">
+	UserVoice = window.UserVoice || [];
+	(function() {
+		var uv = document.createElement('script');
+		uv.type = 'text/javascript';
+		uv.async = true;
+		uv.src = '//widget.uservoice.com/QJRSHgJlAgmrKo2VPQaBOw.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(uv, s)
+	})();
+	UserVoice.push([ 'set', {
+		smartvote_status_ids : [ 1311021, 175780 ],
+		accent_color : '#448dd6',
+		trigger_color : 'white',
+		trigger_background_color : '#448dd6',
+		contact_title : 'Search for help'
+	} ]);
+	UserVoice.push([ 'addTrigger', {
+		mode : 'contact',
+		trigger_position : 'bottom-right'
+	} ]);
+	UserVoice.push([ 'autoprompt', {} ]);
+</script>
+
+
+<script type="text/javascript" src="http://static.memrise.com/garden/js/social/sharing.js?v=6e7637"></script>
+<script type="text/javascript" src="http://static.memrise.com/garden/js/views/course.js?v=6e7637"></script>
+
+<script type="text/javascript" src="http://static.memrise.com/js/gz/level_view.min.js?v=6e7637"></script>
+<script type="text/javascript">
+	window.NREUM || (NREUM = {});
+	NREUM.info = {
+		"beacon" : "beacon-4.newrelic.com",
+		"queueTime" : 0,
+		"licenseKey" : "ded9a63ba5",
+		"agent" : "js-agent.newrelic.com/nr-476.min.js",
+		"transactionName" : "Ml1XYxZQDRAAURJRXgsXc0IKUhcKDlxJVVQISlxEAR8EAhNWA1YfE1FQQBcfAAwUQBVdCyZXQEUXVC8GF1cKblgATw==",
+		"applicationID" : "2539547",
+		"errorBeacon" : "bam.nr-data.net",
+		"applicationTime" : 222
+	}
+</script>
+</body>
+</html>
